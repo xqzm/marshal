@@ -6,7 +6,7 @@
   .logo {
     background-image: url(../img/logo.png);
     width: 502px;
-    height: 213px;
+    height: 240px;
   }
 }
 
@@ -18,7 +18,7 @@
   .logo {
     background-image: url(../img/logo.png);
     width: 502px;
-    height: 213px;
+    height: 240px;
   }
 }
 
@@ -36,7 +36,7 @@
   .logo {
     background-image: url(../img/logo.png);
     width: 502px;
-    height: 213px;
+    height: 240px;
   }
   ul.menu-nav,
   div.menu-branding {
@@ -89,7 +89,22 @@
   .logo {
     background-image: url(../img/logo_sm.png);
     width: 300px;
-    height: 127px;
+    height: 153px;
+    margin-left: 0px;
+  }
+  .projects {
+    grid-template-columns: 1fr;
+  }
+}
+
+@include mediaXsm {
+  main#home h1 {
+    margin-top: 10vh;
+  }
+  .logo {
+    background-image: url(../img/logo_xsm.png);
+    width: 200px;
+    height: 109px;
     margin-left: 0px;
   }
   .projects {
