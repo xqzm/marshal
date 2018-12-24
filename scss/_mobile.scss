@@ -123,10 +123,14 @@
     margin-top: 10vh;
   }
   .logo {
-    background-image: url(../img/logo_xsm.png);
+    background-image: url(../img/logo_sm.png);
     width: 220px;
     height: 112px;
     margin: auto;
+    img.resize {
+      width: 220px;
+      height: auto;
+    }
   }
   .projects {
     grid-template-columns: 1fr;
