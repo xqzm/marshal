@@ -1,17 +1,36 @@
 // Widescreens
 @include mediaXl {
+  main {
+    align-items: center;
+    text-align: center;
+
+    .lg-heading {
+      line-height: 1;
+      margin-bottom: 1rem;
+    }
+  }
   .projects {
     grid-template-columns: repeat(4, 1fr);
   }
   .logo {
+    margin: auto;
     background-image: url(../img/logo.png);
-    width: 502px;
+    width: 530px;
     height: 240px;
   }
 }
 
 // Desktops & Laptops
 @include mediaLg {
+  main {
+    align-items: center;
+    text-align: center;
+
+    .lg-heading {
+      line-height: 1;
+      margin-bottom: 1rem;
+    }
+  }
   .projects {
     grid-template-columns: repeat(3, 1fr);
   }
@@ -19,6 +38,7 @@
     background-image: url(../img/logo.png);
     width: 530px;
     height: 240px;
+    margin: auto;
   }
 }
 
@@ -37,6 +57,7 @@
     background-image: url(../img/logo.png);
     width: 530px;
     height: 240px;
+    margin: auto;
   }
   ul.menu-nav,
   div.menu-branding {
@@ -90,6 +111,7 @@
     background-image: url(../img/logo_sm.png);
     width: 300px;
     height: 153px;
+    margin: auto;
   }
   .projects {
     grid-template-columns: 1fr;
@@ -104,6 +126,7 @@
     background-image: url(../img/logo_xsm.png);
     width: 220px;
     height: 112px;
+    margin: auto;
   }
   .projects {
     grid-template-columns: 1fr;
