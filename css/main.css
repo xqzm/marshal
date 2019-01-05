@@ -221,9 +221,9 @@ main {
     grid-template-columns: repeat(4, 1fr); }
   .logo {
     margin: auto;
-    background-image: url(../img/logo.png);
-    width: 530px;
-    height: 240px; } }
+    background-image: url(../img/logo.svg);
+    width: 550px;
+    height: 328px; } }
 
 @media screen and (min-width: 769px) and (max-width: 1170px) {
   main {
@@ -235,9 +235,9 @@ main {
   .projects {
     grid-template-columns: repeat(3, 1fr); }
   .logo {
-    background-image: url(../img/logo.png);
-    width: 530px;
-    height: 240px;
+    background-image: url(../img/logo.svg);
+    width: 520px;
+    height: 280px;
     margin: auto; } }
 
 @media screen and (max-width: 768px) {
@@ -248,9 +248,9 @@ main {
       line-height: 1;
       margin-bottom: 1rem; }
   .logo {
-    background-image: url(../img/logo.png);
-    width: 530px;
-    height: 240px;
+    background-image: url(../img/logo.svg);
+    width: 420px;
+    height: 230px;
     margin: auto; }
   ul.menu-nav,
   div.menu-branding {
