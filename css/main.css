@@ -292,14 +292,3 @@ main {
   .projects {
     grid-template-columns: 1fr; } }
 
-@media screen and (max-width: 400px) {
-  main#home h1 {
-    margin-top: 10vh; }
-  .logo {
-    background-image: url(../img/logo.svg);
-    width: 220px;
-    height: 112px;
-     margin: auto;
-    }
-  .projects {
-    grid-template-columns: 1fr; } }
