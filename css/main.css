@@ -299,7 +299,7 @@ main {
   .logo {
     background-image: url(../img/logo.svg);
     width: 220px;
-    height: 112px;
+    height: 100px;
     margin: auto;
     img.resize {
       width: 220px;
