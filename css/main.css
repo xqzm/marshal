@@ -301,11 +301,7 @@ main {
     width: 220px;
     height: 100px;
     margin: auto;
-    img.resize {
-      width: 220px;
-      height: auto;
-    }
-  }
+      }
   .projects {
     grid-template-columns: 1fr;
   }
