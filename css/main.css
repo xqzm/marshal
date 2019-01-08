@@ -292,3 +292,22 @@ main {
   .projects {
     grid-template-columns: 1fr; } }
 
+@include mediaXsm {
+  main#home h1 {
+    margin-top: 10vh;
+  }
+  .logo {
+    background-image: url(../img/logo.svg);
+    width: 220px;
+    height: 112px;
+    margin: auto;
+    img.resize {
+      width: 220px;
+      height: auto;
+    }
+  }
+  .projects {
+    grid-template-columns: 1fr;
+  }
+}
+
